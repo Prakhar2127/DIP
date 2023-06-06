@@ -1,0 +1,10 @@
+A = imread('C:\Users\password(mmlab)\Pictures\apoorva  3 (a).jpg');
+figure(1);
+imshow(A);
+L = rgb2gray(A);
+figure(2);
+imshow(L);
+U= imread('C:\Users\password(mmlab)\Pictures\as.jpg');
+imshow(U);
+J = imadd(U,50);
+imshow(J);
